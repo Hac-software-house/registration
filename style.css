@@ -1,0 +1,84 @@
+.btn input{
+    width: 140px;
+    height: 40px;
+    background-color: #882BDE;
+    border: none;
+    margin: 5px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    float: right;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(/background.jpg) no-repeat;
+    background-size: cover;
+}
+.signup-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(101, 102, 114, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 05px;
+}
+.signup-form img{
+    width: 50%;
+    height: 50%;
+}
+.signup-form input
+{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    height: 44px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition: 0.8s;
+    text-transform: uppercase;
+    
+}
+.signup-form input:hover{
+    transform: scale(0.96);
+}
+.text{
+    margin: 20px 0px;
+    border-radius: 05px;
+    
+}
+.btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+    background: rgb(6, 59, 218);
+    border-radius: 40px;
+}
+.btn:hover{
+    transform: scale(0.96);
+}
+
+.signup-form a{
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    padding: 10px;
+    transform: 0.8s;
+    display: block;
+}
+.signup-form a:hover{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.btn input:hover{
+    cursor: pointer;
+}
